@@ -74,7 +74,7 @@ class Diary:
         #   wpm: integer representing reading speed
         #   mins: integer representing available minutes
         # Returns:
-        #   diary_entry entry with closest word count above wpm * mins
+        #   diary_entry entry with closest word count below wpm * mins
         pass
 
     def list_mobile_numbers(self):
